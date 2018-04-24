@@ -8,21 +8,22 @@ public class Client implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "ID")
+	@org.kie.api.definition.type.Label("ID")
 	private long id;
-	@org.kie.api.definition.type.Label(value = "Name")
+	@org.kie.api.definition.type.Label("Name")
+	@org.kie.api.definition.type.Description("Name of the client.")
 	private java.lang.String name;
-	@org.kie.api.definition.type.Label(value = "Country")
+	@org.kie.api.definition.type.Label("Country")
 	private java.lang.String country;
-	@org.kie.api.definition.type.Label(value = "Type")
+	@org.kie.api.definition.type.Label("Type")
 	private java.lang.String type;
-	@org.kie.api.definition.type.Label(value = "Business Identifier Code")
+	@org.kie.api.definition.type.Label("Business Identifier Code")
 	private java.lang.String bic;
-	@org.kie.api.definition.type.Label(value = "Address")
+	@org.kie.api.definition.type.Label("Address")
 	private java.lang.String address;
-	@org.kie.api.definition.type.Label(value = "Phone Number")
+	@org.kie.api.definition.type.Label("Phone Number")
 	private java.lang.String phoneNumber;
-	@org.kie.api.definition.type.Label(value = "Credit Score")
+	@org.kie.api.definition.type.Label("Credit Score")
 	private int creditScore;
 
 	public Client() {
