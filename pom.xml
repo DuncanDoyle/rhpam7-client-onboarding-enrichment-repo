@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.myteam</groupId>
+  <artifactId>client-onboarding-enrichment</artifactId>
+  <version>1.0.0</version>
+  <name>client-onboarding-enrichment</name>
+  <description>Client Onboarding Enrichment</description>
+  <url></url>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>file:///Users/ddoyle/Development/github/jbossdemocentral/rhpam7-install-demo/target/jboss-eap-7.1/bin</url>
+    </repository>
+  </repositories>
+</project>
