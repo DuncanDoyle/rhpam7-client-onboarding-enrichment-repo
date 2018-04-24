@@ -9,6 +9,9 @@ public class Client implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	@org.kie.api.definition.type.Label("ID")
+	@javax.persistence.Column(name = "ID", unique = true)
+	@javax.persistence.Id
+	@javax.persistence.GeneratedValue(generator = "ID_SEQUENCE", strategy = javax.persistence.GenerationType.SEQUENCE)
 	private long id;
 	@org.kie.api.definition.type.Label("Name")
 	@org.kie.api.definition.type.Description("Name of the client.")
