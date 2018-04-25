@@ -37,13 +37,13 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>129</width>
-          <header>Type</header>
+          <width>109</width>
+          <header>Country</header>
           <constraintValueType>1</constraintValueType>
-          <factField>type</factField>
+          <factField>country</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList>SMALL, MEDIUM, LARGE</valueList>
+          <valueList>US,MX,UK,NL,FR,ES</valueList>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -53,13 +53,13 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>109</width>
-          <header>Country</header>
+          <width>129</width>
+          <header>Type</header>
           <constraintValueType>1</constraintValueType>
-          <factField>country</factField>
+          <factField>type</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList>US,MX,UK,NL,FR,ES</valueList>
+          <valueList>SMALL, MEDIUM, LARGE</valueList>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -193,7 +193,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>bla</valueString>
+        <valueString>US-SMALL-ID</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -203,12 +203,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MEDIUM</valueString>
+        <valueString>US</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>US</valueString>
+        <valueString>SMALL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -242,7 +242,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>bla2</valueString>
+        <valueString>US-MEDIUM-ID</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -252,12 +252,110 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>LARGE</valueString>
+        <valueString>US</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>MEDIUM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ID</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>US-LARGE-UD</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>enrichment-required-documents</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueString>US</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>LARGE</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ID</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>US-LARGE-CREDITSCORE-BANK</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>enrichment-required-documents</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>US</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>LARGE</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
