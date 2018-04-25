@@ -37,7 +37,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>256</width>
+          <width>129</width>
           <header>Type</header>
           <constraintValueType>1</constraintValueType>
           <factField>type</factField>
@@ -69,7 +69,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>161</width>
+          <width>146</width>
           <header>Minimum Credit Score</header>
           <constraintValueType>1</constraintValueType>
           <factField>creditScore</factField>
@@ -84,7 +84,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>174</width>
+          <width>149</width>
           <header>Maximum Credit Score</header>
           <constraintValueType>1</constraintValueType>
           <factField>creditScore</factField>
@@ -116,7 +116,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>147</width>
           <header>Requires Documents?</header>
           <constraintValueType>1</constraintValueType>
           <fieldType>Boolean</fieldType>
@@ -139,7 +139,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>457</width>
+          <width>272</width>
           <header>Add Required Document</header>
           <varName>doc</varName>
           <fieldType>Object</fieldType>
