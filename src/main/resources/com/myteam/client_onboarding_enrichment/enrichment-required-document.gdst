@@ -1,5 +1,6 @@
 <decision-table52>
   <tableName>enrichment-required-document</tableName>
+  <parentName>Row 1 enrichment-required-document</parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
