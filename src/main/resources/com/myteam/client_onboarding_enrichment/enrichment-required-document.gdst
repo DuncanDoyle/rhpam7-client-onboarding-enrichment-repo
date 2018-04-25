@@ -10,20 +10,7 @@
     <width>259</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueString>enrichment-requierd-documents</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>true</hideColumn>
-      <width>100</width>
-      <attribute>ruleflow-group</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>Client</factType>
@@ -198,11 +185,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>enrichment-required-documents</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>MEDIUM</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -245,11 +227,6 @@
       </value>
       <value>
         <valueString>US-LARGE-ID</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>enrichment-required-documents</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
