@@ -13,7 +13,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString>enrichment-requierd-document</valueString>
+        <valueString>enrichment-requierd-documents</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -198,7 +198,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>enrichment-required-document</valueString>
+        <valueString>enrichment-required-documents</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -249,7 +249,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>enrichment-required-document</valueString>
+        <valueString>enrichment-required-documents</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
