@@ -29,7 +29,7 @@
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
-      <artifactId>optaplanner=persistence-jaxb</artifactId>
+      <artifactId>optaplanner-persistence-jaxb</artifactId>
       <version>7.7.0.Final-redhat-7</version>
       <scope>provided</scope>
     </dependency>
@@ -41,7 +41,7 @@
     </dependency>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
-      <artifactId>kie-internal</artifactId>
+      <artifactId>xstream</artifactId>
       <version>1.4.10</version>
       <scope>test</scope>
     </dependency>
