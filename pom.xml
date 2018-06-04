@@ -8,6 +8,16 @@
   <name>client-onboarding-enrichment</name>
   <description>Client Onboarding Enrichment</description>
   <url></url>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>7.7.0.Final-redhat-7</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
