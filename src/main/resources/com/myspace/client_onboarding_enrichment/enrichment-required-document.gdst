@@ -181,7 +181,7 @@
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.myteam.client_onboarding_enrichment</packageName>
+  <packageName>com.myspace.client_onboarding_enrichment</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

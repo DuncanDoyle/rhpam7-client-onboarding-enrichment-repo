@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_huHdUF0xEeiinZ63F-B3mQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="1.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
-  <bpmn2:itemDefinition id="_clientItem" structureRef="com.myteam.client_onboarding_enrichment.Client"/>
+  <bpmn2:itemDefinition id="_clientItem" structureRef="com.myspace.client_onboarding_enrichment.Client"/>
   <bpmn2:itemDefinition id="_requiredDocumentsItem" structureRef="java.util.List"/>
   <bpmn2:itemDefinition id="_uploadedDocumentsCollectionItem" structureRef="java.util.List"/>
   <bpmn2:itemDefinition id="_uploadedDocumentsItem" structureRef="org.jbpm.document.Documents"/>
   <bpmn2:itemDefinition id="_BC5B7777-D486-4928-B939-32AD601638E4_multiInstanceItemType"/>
   <bpmn2:itemDefinition id="_approvedItem" structureRef="Boolean"/>
   <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_TaskNameInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputXItem" structureRef="com.myteam.client_onboarding_enrichment.Client"/>
+  <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputXItem" structureRef="com.myspace.client_onboarding_enrichment.Client"/>
   <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_SkippableInputXItem" structureRef="Object"/>
-  <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputXItem" structureRef="com.myteam.client_onboarding_enrichment.Client"/>
-  <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputXItem" structureRef="com.myteam.client_onboarding_enrichment.Client"/>
+  <bpmn2:itemDefinition id="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputXItem" structureRef="com.myspace.client_onboarding_enrichment.Client"/>
+  <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputXItem" structureRef="com.myspace.client_onboarding_enrichment.Client"/>
   <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsInputXItem" structureRef="java.util.List"/>
-  <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputXItem" structureRef="com.myteam.client_onboarding_enrichment.Client"/>
+  <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputXItem" structureRef="com.myspace.client_onboarding_enrichment.Client"/>
   <bpmn2:itemDefinition id="__401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsOutputXItem" structureRef="java.util.List"/>
-  <bpmn2:process id="src.EnrichmentProcess" drools:packageName="com.myteam.client_onboarding_enrichment" drools:version="1.0" name="EnrichmentProcess" isExecutable="true">
+  <bpmn2:process id="src.EnrichmentProcess" drools:packageName="com.myspace.client_onboarding_enrichment" drools:version="1.0" name="EnrichmentProcess" isExecutable="true">
     <bpmn2:property id="client" itemSubjectRef="_clientItem"/>
     <bpmn2:property id="requiredDocuments" itemSubjectRef="_requiredDocumentsItem"/>
     <bpmn2:property id="uploadedDocumentsCollection" itemSubjectRef="_uploadedDocumentsCollectionItem"/>
@@ -43,9 +43,9 @@
       <bpmn2:outgoing>_D32967E3-CC77-430F-865C-38F345D19331</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_huHdUV0xEeiinZ63F-B3mQ">
         <bpmn2:dataInput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_TaskNameInputX" drools:dtype="String" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_TaskNameInputXItem" name="TaskName"/>
-        <bpmn2:dataInput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputX" drools:dtype="com.myteam.client_onboarding_enrichment.Client" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputXItem" name="htClient"/>
+        <bpmn2:dataInput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputX" drools:dtype="com.myspace.client_onboarding_enrichment.Client" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputXItem" name="htClient"/>
         <bpmn2:dataInput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_SkippableInputX" drools:dtype="Object" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_SkippableInputXItem" name="Skippable"/>
-        <bpmn2:dataOutput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputX" drools:dtype="com.myteam.client_onboarding_enrichment.Client" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputXItem" name="htClient"/>
+        <bpmn2:dataOutput id="_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputX" drools:dtype="com.myspace.client_onboarding_enrichment.Client" itemSubjectRef="__F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientOutputXItem" name="htClient"/>
         <bpmn2:inputSet id="_huIEYF0xEeiinZ63F-B3mQ">
           <bpmn2:dataInputRefs>_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_htClientInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_F28F20D2-3F5B-47E3-8C86-05F89ACB4974_SkippableInputX</bpmn2:dataInputRefs>
@@ -97,9 +97,9 @@
       <bpmn2:incoming>_28C85D2C-73F7-4728-9807-8353754F1C6B</bpmn2:incoming>
       <bpmn2:outgoing>_CD9C37AE-8C55-445D-932C-11B7AAAA5B36</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_huIEb10xEeiinZ63F-B3mQ">
-        <bpmn2:dataInput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputX" drools:dtype="com.myteam.client_onboarding_enrichment.Client" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputXItem" name="client"/>
+        <bpmn2:dataInput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputX" drools:dtype="com.myspace.client_onboarding_enrichment.Client" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputXItem" name="client"/>
         <bpmn2:dataInput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsInputX" drools:dtype="java.util.List" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsInputXItem" name="requiredDocuments"/>
-        <bpmn2:dataOutput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputX" drools:dtype="com.myteam.client_onboarding_enrichment.Client" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputXItem" name="client"/>
+        <bpmn2:dataOutput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputX" drools:dtype="com.myspace.client_onboarding_enrichment.Client" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_clientOutputXItem" name="client"/>
         <bpmn2:dataOutput id="_401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsOutputX" drools:dtype="java.util.List" itemSubjectRef="__401A445D-421F-47BB-AB70-3A2F5886F0D7_requiredDocumentsOutputXItem" name="requiredDocuments"/>
         <bpmn2:inputSet id="_huIEcF0xEeiinZ63F-B3mQ">
           <bpmn2:dataInputRefs>_401A445D-421F-47BB-AB70-3A2F5886F0D7_clientInputX</bpmn2:dataInputRefs>
@@ -229,7 +229,7 @@
         <bpmn2:outgoing>_ED8D7909-135E-4C28-AA76-406AA2B5B3B0</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_huIEjF0xEeiinZ63F-B3mQ">
           <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_htClientInputX" drools:dtype="com.myteam.client_onboarding_enrichment.Client" name="htClient"/>
+          <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_htClientInputX" drools:dtype="com.myspace.client_onboarding_enrichment.Client" name="htClient"/>
           <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_htRequiredDocumentInputX" drools:dtype="String" name="htRequiredDocument"/>
           <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_htUploadedDocumentInputX" drools:dtype="org.jbpm.document.Document" name="htUploadedDocument"/>
           <bpmn2:dataInput id="_3720A35E-1753-470B-86E4-CB38FD4FD951_SkippableInputX" drools:dtype="Object" name="Skippable"/>
